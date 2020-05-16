@@ -10,3 +10,11 @@ func factorial(n: Int) -> Int {
 
 }
  let factRes = factorial(n: 12)
+
+func exponentiation (n:Int, p:Int) -> Int{
+    if p <= 0 {
+        return 1
+    } else {
+        return n * exponentiation(n: n, p: p-1)
+    }
+}
