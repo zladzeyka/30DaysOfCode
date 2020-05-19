@@ -1,3 +1,11 @@
+//
+//  Day13AbstractClasses.cpp
+//  
+//
+//  Created by Nadzeya Karaban on 19.05.20.
+//
+
+#include <stdio.h>
 class MyBook:public Book {
     
     int price;
