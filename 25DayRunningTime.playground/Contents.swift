@@ -9,8 +9,7 @@ func isPrime(n: Int) -> Bool {
     return true
 }
 
-let T = 1
-    //Int(readLine()!)!
+let T = Int(readLine()!)!
 
 for _ in 0 ..< T {
     let n = Int(readLine()!)!
